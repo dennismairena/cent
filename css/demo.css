@@ -1,0 +1,406 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+   @font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+
+abbr,acronym { border:0;
+}
+section, header{
+	display: block;
+}
+/* General Demo Style */
+body{
+	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background: #e0e3ec url(../images/bg.png) repeat top left;
+	font-weight: 400;
+	font-size: 15px;
+	color: #593741;
+	overflow-y: scroll;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 20px 30px 10px 30px;
+	margin: 0px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+    background: rgba(250,250,250,0.8);
+    border-bottom: #efc34a solid 5px;
+    box-shadow: 
+    inset 0 5px 5px rgba(0,0,0,0.2),
+    inset 5px 0 5px rgba(0,0,0,0.2),
+    inset -5px 0 5px rgba(0,0,0,0.2);
+
+}
+.container > header h1 {
+	color:#efc34a;
+font-size: 2.5em;
+font-family: 'Yellowtail', cursive;
+}
+.container > header  q{
+	color:white;
+font-size: 1.3em;
+font-family: 'Economica', italic;
+}
+.container > header  q img{
+	width:100px;
+}
+.container > header h1 span{
+	color:white;
+font-size: 0.5em;
+}
+.container >nav{
+	display: inline-block;
+
+}
+.container >nav ul li {
+	float:left;
+	
+}
+.container > nav ul li a{
+
+margin:0 0.3em ;
+	background:rgba(255, 255, 255, 0.6);
+	padding:0.2em 0.5em;
+	border-radius: 0 0 0.5em 0.5em;
+	font-style: bold;
+	font-size: 1.2em;
+
+
+}
+.container >nav ul li #home{
+	display:inline-block;
+	position: absolute;
+	left:-10px;
+	font-size: 1.8em;
+
+}
+
+.container >nav ul li #home:before{
+
+font-family: "icomoon";
+	content: "\e60b"" ";
+
+	
+}.container >nav ul li #services:before{
+
+font-family: "icomoon";
+	content: "\e612"" ";
+	font-size: 0.6em;
+	color:black;
+	opacity: 0.2;
+	
+}
+
+.container >nav ul li #about:before{
+font-family: "icomoon";
+	content: "\e60e"" ";
+	font-size: 0.6em;
+	color:black;
+	opacity: 0.2;
+	
+}
+
+.container >nav ul li #contact:before{
+
+font-family: "icomoon";
+	content: "\e60f"" ";
+	font-size: 0.6em;
+	color:black;
+	opacity: 0.2;
+}
+
+
+.tw:after{
+	font-family: "icomoon";
+	content:" " "\e603";
+	font-size: 1.3em;
+
+
+}
+.fb:after{
+	font-family: "icomoon";
+	content:" " "\e604";
+	font-size: 1.3em;
+}
+.yp:after{
+	font-family: "icomoon";
+	content:" " "\e605";
+	font-size: 1.3em;
+}
+.in:after{
+	font-family: "icomoon";
+	content:" " "\e606";
+	font-size: 1.3em;
+}
+
+
+.container >nav ul li #home{
+	
+	margin:0 0.3em ;
+	background:#efc34a;
+	padding:0.2em;
+	border-radius: 0 0 0.5em 0.5em;
+	font-style: bold;
+	color:white;}
+.container >nav ul li a:hover{
+	
+	margin:0 0.3em ;
+	background:#efc34a;
+	padding:0.2em 0.5em;
+	border-radius: 0 0 0.5em 0.5em;
+	font-style: bold;
+	color:white;
+	/* Header Style */
+.codrops-top{
+	line-height: 24px;
+	font-size: 11px;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+}
+.codrops-top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	text-shadow: 0px 1px 1px #fff;
+	display: block;
+	float: left;
+}
+.codrops-top a:hover{
+	background: #fff;
+}
+.codrops-top span.right{
+	float: right;
+}
+.codrops-top span.right a{
+	float: left;
+	display: block;
+}
+
+
+#testSlide3 {
+	display: inline-block;
+	border: 1px solid #b19099;
+	padding: 4px 10px 3px;
+	margin: 0px 3px;
+	color: #fff;
+	background: #111;
+
+}
+}
+
+
+#gal{
+	
+
+
+margin:0;
+position:relative;
+border-top: dashed rgba(239,195,74,0.4) 5px;
+border-bottom: dashed rgba(239,195,74,0.4) 5px;
+background: rgba(239,195,74,0.2);
+
+
+text-align: center;
+font-size: 2em;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+ 
+
+}
+
+#gal h2{
+	color:rgba(250,250,250,0.2);
+	text-shadow: 1px 3px 10px rgba(0,0,0,1);
+	font-family: 'Economica', italic;
+	
+background: -webkit-linear-gradient(rgba(0,0,0,0.8), transparent); /* For Safari */
+background: -o-linear-gradient(rgba(0,0,0,0.8), transparent); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(rgba(0,0,0,0.8), transparent); /* For Firefox 3.6 to 15 */
+background: linear-gradient(rgba(0,0,0,0.8), transparent); /* Standard syntax (must be last) */
+}
+
+footer #in{
+
+	color:rgba(250,250,250,0.6);
+	background: rgba(0,0,0,0.5);
+	font-size: 1.5em;
+padding: 0.4em 0.7em;
+margin:0.2em;
+border-radius: 1em;
+	right:0;
+	font-family: 'arial', italic;
+	position: absolute;
+	z-index:90000;
+
+
+}
+
+
+
+footer #in:hover{
+	color:#efc34a;}
+
+	footer #po, footer #po a{
+	color:rgba(250,250,250,0.7);
+	
+	font-size: 1em;
+	margin: 1em 0.3em;
+	text-align: center;
+
+
+}
+
+footer p #po a:hover{
+	color:#efc34a;
+
+
+}
+footer .p{
+	position:relative;
+	color:rgba(250,250,250,0.7);
+	font-size: 1.2em;
+	font-family: 'Economica', italic;
+	padding: 0.3em;
+	text-align: center;
+	background: -webkit-linear-gradient(transparent,rgba(0,0,0,0.8)); /* For Safari */
+background: -o-linear-gradient(transparent,rgba(0,0,0,0.8)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(transparent,rgba(0,0,0,0.8)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(transparent,rgba(0,0,0,0.8)); /* Standard syntax (must be last) */
+	
+
+}
+
+footer .p strong{
+	font-size: 2.3em;
+	color:rgba(239,195,74,0.4);
+	text-shadow: 1px 3px 10px rgba(0,0,0,1);
+}
+footer .p #po:hover{color:#efc34a;}
+#gal{
+	
+	width: 100%;
+	height: 300px;
+	overflow: auto;
+
+
+}
+
+#gal figure{
+	position: relative;
+	height: 220px;
+	
+}
+#gal .por{
+	
+width: 200px;
+color:black;
+box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+transition:all 0.5s ease-out;
+margin: auto 0.3em;
+border-radius: 1em;
+border: solid rgba(239,195,74,0.4) 5px;
+opacity: 0.8;
+
+}
+#gal .por:hover{
+	
+width: 220px;
+border-radius: 0;
+opacity: 1;
+
+}
+
+
+
+#copy{
+	font-size: 1em;
+	text-align: center;
+	color:rgba(250,250,250,0.7);
+	background: rgba(0,0,0,0.8); /* Standard syntax (must be last) */
+}
+
+#copy a:hover{
+	color:#efc34a;}
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+	.container > header{
+		text-align: center;
+	}
+	p.codrops-demos {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+	
+
+	
+}
+
