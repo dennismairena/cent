@@ -123,13 +123,14 @@ font-size: 0.5em;
 
 margin:0 0.3em ;
 	background:rgba(255, 255, 255, 0.6);
-	padding:0.2em 0.5em;
+	padding:0.2em 1em;
 	border-radius: 0 0 0.5em 0.5em;
 	font-style: bold;
 	font-size: 1.2em;
 
 
 }
+
 .container >nav ul li #home{
 	display:inline-block;
 	position: absolute;
@@ -148,16 +149,17 @@ font-family: "icomoon";
 
 font-family: "icomoon";
 	content: "\e612"" ";
-	font-size: 0.6em;
+	font-size: 1em;
 	color:black;
 	opacity: 0.2;
+
 	
 }
 
 .container >nav ul li #about:before{
 font-family: "icomoon";
 	content: "\e60e"" ";
-	font-size: 0.6em;
+	font-size: 1em;
 	color:black;
 	opacity: 0.2;
 	
@@ -167,7 +169,7 @@ font-family: "icomoon";
 
 font-family: "icomoon";
 	content: "\e60f"" ";
-	font-size: 0.6em;
+	font-size: 1em;
 	color:black;
 	opacity: 0.2;
 }
@@ -209,7 +211,7 @@ font-family: "icomoon";
 	
 	margin:0 0.3em ;
 	background:#efc34a;
-	padding:0.2em 0.5em;
+	padding:0.2em 1em;
 	border-radius: 0 0 0.5em 0.5em;
 	font-style: bold;
 	color:white;
