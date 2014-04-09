@@ -68,7 +68,7 @@ body{
 	overflow-y: scroll;
 }
 a{
-	color: #333;
+	color:gray;
 	text-decoration: none;
 }
 .container{
@@ -104,21 +104,16 @@ font-family: 'Yellowtail', cursive;
 font-size: 1.3em;
 font-family: 'Economica', italic;
 }
-.container > header  q img{
-	width:100px;
-}
+
 .container > header h1 span{
 	color:white;
 font-size: 0.5em;
 }
 .container >nav{
 	display: inline-block;
+width: 100%;
+}
 
-}
-.container >nav ul li {
-	float:left;
-	
-}
 .container > nav ul li a{
 
 margin:0 0.3em ;
@@ -130,76 +125,87 @@ margin:0 0.3em ;
 
 
 }
+#panel{display: none;}
+#panel li a {
+margin: 0.5em;
+position: relative;
+line-height: 1em;
+width: 200px}
+#panel li a:hover {
+	width: 100%;
+	color:rgba(250,250,250,0.6);
+}
+
+#panel img{width: 80%;
+	opacity: 10%;
+}
+
+#panel {height: 162px;
+background: rgba(0,0,0,0.1);
+width: 300px;
+position: relative;
+
+margin:0 auto;
+ font-family: 'Economica', italic;
+z-index: 4000;
+color:white;
+font-size: 1.3em;
+border-radius: 0.3em;
+box-shadow:inset 0px 0px 20px rgba(0,0,0,0.3);
+padding: 0.3em;
+)}
 
 .container >nav ul li #home{
 	display:inline-block;
-	position: absolute;
-	left:-10px;
+	position: relative;
+	float:left;
 	font-size: 1.8em;
-
+	padding: 0 1em;
+cursor:pointer;
 }
 
 .container >nav ul li #home:before{
 
 font-family: "icomoon";
-	content: "\e60b"" ";
+	content: "\e600"" ";
 
 	
-}.container >nav ul li #services:before{
-
-font-family: "icomoon";
-	content: "\e612"" ";
-	font-size: 1em;
-	color:black;
-	opacity: 0.2;
-
-	
-}
-
-.container >nav ul li #about:before{
-font-family: "icomoon";
-	content: "\e60e"" ";
-	font-size: 1em;
-	color:black;
-	opacity: 0.2;
-	
-}
-
-.container >nav ul li #contact:before{
-
-font-family: "icomoon";
-	content: "\e60f"" ";
-	font-size: 1em;
-	color:black;
-	opacity: 0.2;
 }
 
 
 .tw:after{
 	font-family: "icomoon";
-	content:" " "\e603";
+	content:" " "\e604";
 	font-size: 1.3em;
 
 
 }
 .fb:after{
 	font-family: "icomoon";
-	content:" " "\e604";
+	content:" " "\e602";
 	font-size: 1.3em;
 }
-.yp:after{
+.gp:after{
 	font-family: "icomoon";
-	content:" " "\e605";
+	content:" " "\e601";
 	font-size: 1.3em;
 }
 .in:after{
 	font-family: "icomoon";
-	content:" " "\e606";
+	content:" " "\e603";
 	font-size: 1.3em;
 }
 
 
 .container >nav ul li #home{
+	
+	margin:0 0.3em ;
+	background:#efc34a;
+	padding:0.2em;
+	border-radius: 0 0 0.5em 0.5em;
+	font-style: bold;
+	color:white;}
+	.container >nav ul li #menu{
 	
 	margin:0 0.3em ;
 	background:#efc34a;
@@ -228,7 +234,7 @@ font-family: "icomoon";
 .codrops-top a{
 	padding: 0px 10px;
 	letter-spacing: 1px;
-	color: #333;
+	color: white;
 	text-shadow: 0px 1px 1px #fff;
 	display: block;
 	float: left;
@@ -392,7 +398,7 @@ opacity: 1;
 
 
 /* Media Queries */
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 767px) {
 	.container > header{
 		text-align: center;
 	}
@@ -402,7 +408,7 @@ opacity: 1;
 		left: auto;
 	}
 	
-
+body{display:none;
 	
 }
 

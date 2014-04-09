@@ -13,6 +13,15 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="icons.css">
 		<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+<script> 
+$(document).ready(function(){
+  $("#home").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
 		<link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
 		<noscript>
@@ -22,37 +31,47 @@
     <body>
         <div class="container">
 			
-			<header>
+			<header >
 				<h1>Century Custom Uphostery and Slip Covers</h1> 
 
-				<q>"Serving Orange County Since 1971"</q>
+				<q>"Serving Orange County Since 1971"<br>
+				</q>
 				
-			
+			<div id="panel">  
+			<nav>
+				<ul>
+				<li><img src="images/div.png" alt=""></li>
+				<li><strong><a href="#" id="services" class="menudrop"target="_blank">Home</a></strong></li>
+			    <li><strong><a href="#" id="services" class="menudrop"target="_blank">Services</a></strong></li>
+			     <li><strong><a href="#" id="services" class="menudrop"target="_blank">About Us</a></strong></li>
+			      <li><strong><a href="#" id="services" class="menudrop"target="_blank">Contact Us</a></strong></li>
+			      <li><img src="images/div2.png" alt=""></li>
+			    </ul>
+		        </nav></div>
 			</header>
 
                 <nav>
 				<ul>
-				<li><strong><a href="#" class="now" id="home" title="home"target="_blank"></a></strong></li>
-			    <li><strong><a href="#" id="services" class="menudrop"target="_blank"></a></strong></li>
-			    <li><strong><a href="#" id="about"class="menudrop"target="_blank"></a></strong></li>
-			    <li><strong><a href="#" id="contact"class="menudrop"target="_blank"></a></strong></li>
+				<li><a class="now" id="home" title="Menu"></a></li>
+			    
 			    
 			    </ul>
 		        </nav>
-			<div id="da-slider" class="da-slider">
+			<div align="center"  id="da-slider" class="da-slider">
+
 				<div class="da-slide">
 					<h2>Need help?</h2>
 					<p>Do you love the design of your furniture, but want to trade in the outdated fabric for something more contemporary?
 
                     <strong>Century Custom Upholstery & Slip Covers</strong> turns upholstering wishes into furniture realities... </p>
-					<a href="#" class="da-link"target="_blank">Read more</a>
+					<a href="#" class="da-link"target="_blank">more</a>
 					<div class="da-img"><img src="images/2.png" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Our services...</h2>
 					<p>Whether you’re searching for custom-made furniture or just like our factory-direct prices, <strong>Century Custom Upholstery & Slip Covers</strong> has something everyone will appreciate.
 					Our foam rubber is cut to size, and our refinishing services can’t be beat...</p>
-					<a href="#" class="da-link"target="_blank">Read more</a>
+					<a href="#" class="da-link"target="_blank">more</a>
 					<div class="da-img"><img src="images/3.png" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
@@ -67,7 +86,7 @@
                    <strong> 108 South East Street
                     Anaheim, CA 92805 <br>
                     Monday — Friday: 8:30 a.m. — 5 p.m. Saturday: 9:30 a.m. — 1 p.m.</strong></p>
-					<a href="#" class="da-link"target="_blank">More Details</a>
+					<a href="#" class="da-link"target="_blank">More</a>
 					<div class="da-img"><img src="images/4.png" alt="image01" /></div>
 				</div>
 
@@ -86,14 +105,14 @@
 <img class="por"src="http://distilleryimage9.s3.amazonaws.com/3d6ffd828f4011e3a531121870f29001_6.jpg" alt="">
 <img class="por"src="http://distilleryimage11.s3.amazonaws.com/b7a673508f4111e3942f12aef9ad78f3_6.jpg" alt="">
 <img class="por"src="http://distilleryimage0.s3.amazonaws.com/8bc391b48f4111e39df712c800993304_6.jpg" alt="">
-<img id="mas"class="por"src="http://distilleryimage10.s3.amazonaws.com/d786bee88f3f11e38d5c0e4c394d6daa_6.jpg" alt="">
+
 </figure>
 </div>
  <a href="http://instagram.com/centurycustom" id="in"target="_blank">+</a>
    <p class="p"><strong>FOLLOW US:</strong> <br>
         <a href="#" id="po"class="tw"target="_blank"></a>
         <a href="#" id="po"class="fb"target="_blank"></a>
-        <a href="http://www.yelp.com/biz/century-custom-upholstery-and-slip-covers-anaheim"id="po"class="yp"target="_blank"></a>
+        <a href="http://www.yelp.com/biz/century-custom-upholstery-and-slip-covers-anaheim"id="po"class="gp"target="_blank"></a>
         <a href="http://instagram.com/centurycustom"id="po"class="in"target="_blank"></a></p>
     
     <p id="copy" class="p">Power by <a href="#"target="_blank">Geekzlabs™</a> Copyright © Century Custom Upholstery & Slip Covers 2014, All Rights Reserved</p>
