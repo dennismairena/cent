@@ -1,0 +1,67 @@
+
+.da-slider #contenido{
+	
+width: 50%;
+
+color: #916c05;
+font-size: 18px;
+line-height: 20px;
+height: 80px;
+
+font-style: italic;
+font-family: 'Economica', Arial, sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+.da-slider ul li{
+	list-style: square;
+}
+.da-slider figure{
+
+position:absolute;
+bottom:0px;
+
+right:0px;
+bottom: -10px;
+margin:0;
+padding: 0;
+
+}
+
+.da-slider h2{color: #fff;
+	font-size: 66px;
+	
+	float:left;
+	margin-left:0.5em;
+	top: 60px;
+	
+	z-index: 10;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	font-family: 'Economica', Arial, sans-serif;
+	font-weight: 700;}
+
+#contenido{width:400px;
+	position:absolute;
+	left:2em;
+margin-top:3em; 
+top: 60px;
+}
+
+.da-slider .da-link {
+position: relative;
+top: 30px;
+
+border-radius: 30px;
+box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+color: #fff;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+border: 8px solid rgba(255,255,255,0.8);
+padding: 2px 20px 0px;
+font-size: 1.8em;
+line-height: 30px;
+width: 80px;
+text-align: center;
+background: rgba(255,255,255,0.2);
+}
+}
+

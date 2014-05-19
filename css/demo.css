@@ -397,18 +397,4 @@ opacity: 1;
 }
 
 
-/* Media Queries */
-@media only screen and (min-width: 767px) {
-	.container > header{
-		text-align: center;
-	}
-	p.codrops-demos {
-		position: relative;
-		top: auto;
-		left: auto;
-	}
-	
-body{display:none;
-	
-}
 
