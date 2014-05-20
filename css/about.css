@@ -3,7 +3,7 @@
 	
 width: 50%;
 
-color: #916c05;
+color: #4e3423;
 font-size: 18px;
 line-height: 20px;
 height: 80px;
@@ -28,7 +28,7 @@ padding: 0;
 
 }
 
-.da-slider h2{color: #fff;
+.da-slider h2{
 	font-size: 66px;
 	
 	float:left;
@@ -36,7 +36,8 @@ padding: 0;
 	top: 60px;
 	
 	z-index: 10;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	color: #dfb02c;
+text-shadow: 1px 1px 1px rgba(250,250,250,0.3);
 	font-family: 'Economica', Arial, sans-serif;
 	font-weight: 700;}
 
@@ -44,7 +45,7 @@ padding: 0;
 	position:absolute;
 	left:2em;
 margin-top:3em; 
-top: 60px;
+top: 30px;
 }
 
 .da-slider .da-link {
@@ -52,10 +53,10 @@ position: relative;
 top: 30px;
 
 border-radius: 30px;
-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
-color: #fff;
-text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-border: 8px solid rgba(255,255,255,0.8);
+box-shadow: 0px 1px 1px rgba(250,250,250,0.2);
+color: #CDA44B;
+text-shadow: 1px 1px 1px rgba(250,250,250,0.2);
+border: 8px solid rgba(205, 164, 75,0.8);
 padding: 2px 20px 0px;
 font-size: 1.8em;
 line-height: 30px;
